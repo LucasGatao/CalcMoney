@@ -1,0 +1,13 @@
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.csproj.AssemblyReference.cache
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.frmDivida.resources
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.frmMain.resources
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.frmInvestimento.resources
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.Properties.Resources.resources
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.frmEmprestimo.resources
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.csproj.GenerateResource.cache
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.csproj.CoreCompileInputs.cache
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney.exe.config
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.exe
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney\obj\Release\CalcMoney.pdb
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney.exe
+D:\VSCODEs\Calcmoney\CalcMoney\CalcMoney.pdb

@@ -18,11 +18,6 @@ namespace CalcMoney
             InitializeComponent();
         }
 
-        private void lblQuantia_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void chkAtraso_CheckedChanged(object sender, EventArgs e)
         {
             if (chkAtraso.Checked == true)

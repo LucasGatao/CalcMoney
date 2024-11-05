@@ -50,8 +50,8 @@
             this.txtAtraso = new System.Windows.Forms.TextBox();
             this.chkAtraso = new System.Windows.Forms.CheckBox();
             this.grpAtraso = new System.Windows.Forms.GroupBox();
-            this.nudAtraso = new System.Windows.Forms.NumericUpDown();
             this.lblAtraso2 = new System.Windows.Forms.Label();
+            this.nudAtraso = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.nudParcelas)).BeginInit();
             this.grpAtraso.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudAtraso)).BeginInit();
@@ -60,6 +60,7 @@
             // IblIni
             // 
             this.IblIni.AutoSize = true;
+            this.IblIni.BackColor = System.Drawing.Color.Transparent;
             this.IblIni.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IblIni.Location = new System.Drawing.Point(26, 9);
             this.IblIni.Name = "IblIni";
@@ -70,10 +71,11 @@
             // lblA
             // 
             this.lblA.AutoSize = true;
-            this.lblA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA.BackColor = System.Drawing.Color.Transparent;
+            this.lblA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblA.Location = new System.Drawing.Point(26, 33);
             this.lblA.Name = "lblA";
-            this.lblA.Size = new System.Drawing.Size(24, 16);
+            this.lblA.Size = new System.Drawing.Size(27, 18);
             this.lblA.TabIndex = 0;
             this.lblA.Text = "R$";
             // 
@@ -87,6 +89,7 @@
             // lblTaxa
             // 
             this.lblTaxa.AutoSize = true;
+            this.lblTaxa.BackColor = System.Drawing.Color.Transparent;
             this.lblTaxa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTaxa.Location = new System.Drawing.Point(26, 56);
             this.lblTaxa.Name = "lblTaxa";
@@ -97,10 +100,11 @@
             // lblB
             // 
             this.lblB.AutoSize = true;
-            this.lblB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblB.BackColor = System.Drawing.Color.Transparent;
+            this.lblB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblB.Location = new System.Drawing.Point(110, 81);
             this.lblB.Name = "lblB";
-            this.lblB.Size = new System.Drawing.Size(19, 16);
+            this.lblB.Size = new System.Drawing.Size(21, 18);
             this.lblB.TabIndex = 0;
             this.lblB.Text = "%";
             // 
@@ -114,13 +118,13 @@
             // lblQuantia
             // 
             this.lblQuantia.AutoSize = true;
+            this.lblQuantia.BackColor = System.Drawing.Color.Transparent;
             this.lblQuantia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuantia.Location = new System.Drawing.Point(26, 103);
             this.lblQuantia.Name = "lblQuantia";
             this.lblQuantia.Size = new System.Drawing.Size(211, 24);
             this.lblQuantia.TabIndex = 0;
             this.lblQuantia.Text = "Quantidade de parcelas";
-            this.lblQuantia.Click += new System.EventHandler(this.lblQuantia_Click);
             // 
             // nudParcelas
             // 
@@ -132,6 +136,7 @@
             // lblQuito
             // 
             this.lblQuito.AutoSize = true;
+            this.lblQuito.BackColor = System.Drawing.Color.Transparent;
             this.lblQuito.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuito.Location = new System.Drawing.Point(309, 103);
             this.lblQuito.Name = "lblQuito";
@@ -142,6 +147,7 @@
             // lblD
             // 
             this.lblD.AutoSize = true;
+            this.lblD.BackColor = System.Drawing.Color.Transparent;
             this.lblD.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblD.Location = new System.Drawing.Point(299, 127);
             this.lblD.Name = "lblD";
@@ -152,6 +158,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
+            this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(344, 127);
             this.lblResultado.Name = "lblResultado";
@@ -172,6 +179,7 @@
             // lblValParcela
             // 
             this.lblValParcela.AutoSize = true;
+            this.lblValParcela.BackColor = System.Drawing.Color.Transparent;
             this.lblValParcela.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblValParcela.Location = new System.Drawing.Point(309, 33);
             this.lblValParcela.Name = "lblValParcela";
@@ -182,6 +190,7 @@
             // lblC
             // 
             this.lblC.AutoSize = true;
+            this.lblC.BackColor = System.Drawing.Color.Transparent;
             this.lblC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblC.Location = new System.Drawing.Point(299, 57);
             this.lblC.Name = "lblC";
@@ -192,6 +201,7 @@
             // lblParcela
             // 
             this.lblParcela.AutoSize = true;
+            this.lblParcela.BackColor = System.Drawing.Color.Transparent;
             this.lblParcela.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblParcela.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblParcela.Location = new System.Drawing.Point(344, 57);
@@ -203,16 +213,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Location = new System.Drawing.Point(0, 303);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Versão 0.1";
+            this.label1.Text = "Versão 0.4";
             // 
             // lblAtraso
             // 
             this.lblAtraso.AutoSize = true;
+            this.lblAtraso.BackColor = System.Drawing.Color.Transparent;
             this.lblAtraso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAtraso.Location = new System.Drawing.Point(6, 16);
             this.lblAtraso.Name = "lblAtraso";
@@ -223,10 +235,11 @@
             // lblE
             // 
             this.lblE.AutoSize = true;
-            this.lblE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblE.BackColor = System.Drawing.Color.Transparent;
+            this.lblE.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblE.Location = new System.Drawing.Point(90, 41);
             this.lblE.Name = "lblE";
-            this.lblE.Size = new System.Drawing.Size(19, 16);
+            this.lblE.Size = new System.Drawing.Size(21, 18);
             this.lblE.TabIndex = 0;
             this.lblE.Text = "%";
             // 
@@ -240,16 +253,19 @@
             // chkAtraso
             // 
             this.chkAtraso.AutoSize = true;
+            this.chkAtraso.BackColor = System.Drawing.Color.Transparent;
+            this.chkAtraso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkAtraso.Location = new System.Drawing.Point(129, 135);
             this.chkAtraso.Name = "chkAtraso";
-            this.chkAtraso.Size = new System.Drawing.Size(68, 17);
+            this.chkAtraso.Size = new System.Drawing.Size(79, 20);
             this.chkAtraso.TabIndex = 5;
             this.chkAtraso.Text = "Atrasou?";
-            this.chkAtraso.UseVisualStyleBackColor = true;
+            this.chkAtraso.UseVisualStyleBackColor = false;
             this.chkAtraso.CheckedChanged += new System.EventHandler(this.chkAtraso_CheckedChanged);
             // 
             // grpAtraso
             // 
+            this.grpAtraso.BackColor = System.Drawing.Color.Transparent;
             this.grpAtraso.Controls.Add(this.lblAtraso2);
             this.grpAtraso.Controls.Add(this.lblAtraso);
             this.grpAtraso.Controls.Add(this.lblE);
@@ -263,16 +279,10 @@
             this.grpAtraso.Text = "grpAtraso";
             this.grpAtraso.Visible = false;
             // 
-            // nudAtraso
-            // 
-            this.nudAtraso.Location = new System.Drawing.Point(9, 89);
-            this.nudAtraso.Name = "nudAtraso";
-            this.nudAtraso.Size = new System.Drawing.Size(61, 20);
-            this.nudAtraso.TabIndex = 2;
-            // 
             // lblAtraso2
             // 
             this.lblAtraso2.AutoSize = true;
+            this.lblAtraso2.BackColor = System.Drawing.Color.Transparent;
             this.lblAtraso2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAtraso2.Location = new System.Drawing.Point(5, 62);
             this.lblAtraso2.Name = "lblAtraso2";
@@ -280,10 +290,19 @@
             this.lblAtraso2.TabIndex = 0;
             this.lblAtraso2.Text = "Dias de Atraso";
             // 
+            // nudAtraso
+            // 
+            this.nudAtraso.Location = new System.Drawing.Point(9, 89);
+            this.nudAtraso.Name = "nudAtraso";
+            this.nudAtraso.Size = new System.Drawing.Size(61, 20);
+            this.nudAtraso.TabIndex = 2;
+            // 
             // frmDivida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::CalcMoney.Properties.Resources.Fundo_02;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(491, 316);
             this.Controls.Add(this.grpAtraso);
             this.Controls.Add(this.chkAtraso);
@@ -303,6 +322,7 @@
             this.Controls.Add(this.lblValParcela);
             this.Controls.Add(this.lblQuito);
             this.Controls.Add(this.IblIni);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmDivida";

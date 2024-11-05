@@ -28,5 +28,12 @@ namespace CalcMoney
             frmDivida novaDivida = new frmDivida();
             novaDivida.Show();
         }
+
+        private void btnEmprestimo_Click(object sender, EventArgs e)
+        {
+            frmEmprestimo novoEmprestimo = new frmEmprestimo();
+            novoEmprestimo.Show();
+        }
+
     }
 }
